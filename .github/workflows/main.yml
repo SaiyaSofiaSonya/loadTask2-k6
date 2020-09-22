@@ -30,5 +30,5 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: k6 Scenrio 1
-        run: ./k6.exe run ./Scenario1.js
+        run: ./k6.exe run C:\Devel\k6-v0.27.1-win64\k6-v0.27.1-win64
         shell: bash
