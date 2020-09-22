@@ -30,6 +30,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: k6 Scenrio 1
-        uses: k6io/action@v0.1
+        uses: k6 Load Test/action@v0.1
         with:
-         filename: script.js
+         filename: Scenario1.js
